@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 	"github.com/gorilla/websocket"
-	"github.com/wybiral/hookah/pkg/fanout"
+	"github.com/wybiral/hookah-v0/pkg/fanout"
 	"log"
 	"net/http"
 	"time"

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wybiral/hookah/internal/app"
+	"github.com/wybiral/hookah-v0/internal/app"
 	"os"
 )
 

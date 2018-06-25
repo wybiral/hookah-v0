@@ -1,4 +1,7 @@
 # hookah
+WARNING: This is the old WebSocket-only version of hookah and is no longer being
+maintained.
+
 hookah is a lightweight pipeline tool for orchestrating WebSocket streams.
 
 Operations like fanning-in multiple data sources, fanning-out to multiple
@@ -8,11 +11,11 @@ possible using hookah and standard POSIX pipes.
 ### Install dependencies
 ```
 go get github.com/gorilla/websocket
-go get github.com/wybiral/hookah/cmd/hookah
+go get github.com/wybiral/hookah-v0/cmd/hookah
 ```
 ### Build
 ```
-go build github.com/wybiral/hookah/cmd/hookah
+go build github.com/wybiral/hookah-v0/cmd/hookah
 ```
 ### Usage
 To see usage instructions run:
